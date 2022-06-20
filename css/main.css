@@ -1288,6 +1288,7 @@ margin-bottom: 30px;
 	.container {
 		width: 100%;
 		padding: 0 15px;
+		display: block;
 	}
 
 	.faq-desc-item-num {
@@ -1298,14 +1299,15 @@ margin-bottom: 30px;
 		font-size: 12px;
 	}
 
-	.faq-desc-item button {
-
-	}
-
 	#calculate-form-input {
 		width: 270px;
 		margin: 0 auto;
 		margin-left: -50px;
+	}
+
+	.faq-desc-item button {
+		width: 40px;
+		height: 40px;
 	}
 
 	.container-form-val {
