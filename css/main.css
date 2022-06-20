@@ -1299,6 +1299,10 @@ margin-bottom: 30px;
 		font-size: 12px;
 	}
 
+	.results-desc-item img {
+		max-width: 300px;
+	}
+
 	#calculate-form-input {
 		width: 270px;
 		margin: 0 auto;
