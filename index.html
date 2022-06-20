@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Burning Man</title>
 	<!-- Responsive starts here -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -17,74 +17,79 @@
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			<div class="nav">
-				<img src="img/logo.svg" alt="Burning Man" class="logo">
-				<ul class="menu">
-					<li id="li-item1">
-						<div class="hov">
-							<img width="160px" src="img/hov1.png" alt="">
-						</div>
-						<a href="#">
-							advantages
-						</a>
-					</li>
-					<li id="li-item2">
-						<div class="hov2">
-							<img width="160px" src="img/hov1.png" alt="">
-						</div>
-						<a href="#">
-							reviews
-						</a>
-					</li>
-					<li id="li-item3">
-						<div class="hov3">
-							<img width="160px" src="img/hov1.png" alt="">
-						</div>
-						<a href="#">
-							prices
-						</a>
-					</li>
-				</ul>
-				<button id="bnt-invest1" class="btn-invest">Invest</button>
-				<button class="menu-open">
-					<img src="img/burger.png" alt="Open menu">
-				</button>
-			</div>
-			<div class="offer">
-				<div>
-					<h1>
-						<span style="color: #00A3FF;">Invest</span> in <span style="color:#00DEDE">your future
-						</span><br>with OUR TEAM
-					</h1>
-					<p>Millions of users translate every day with DeepL. Translator from English, German, French and
-						other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator
-					</p>
-					<button style="margin-top: 40px;" class="btn-invest">Invest</button>
+			<div class="header-cont">
+				<div class="nav">
+					<img src="img/logo.svg" alt="Burning Man" class="logo">
+					<ul class="menu">
+						<li id="li-item1">
+							<div class="hov">
+								<img width="160px" src="img/hov1.png" alt="">
+							</div>
+							<a href="#">
+								advantages
+							</a>
+						</li>
+						<li id="li-item2">
+							<div class="hov2">
+								<img width="160px" src="img/hov1.png" alt="">
+							</div>
+							<a href="#">
+								reviews
+							</a>
+						</li>
+						<li id="li-item3">
+							<div class="hov3">
+								<img width="160px" src="img/hov1.png" alt="">
+							</div>
+							<a href="#">
+								prices
+							</a>
+						</li>
+					</ul>
+					<button id="bnt-invest1" class="btn-invest">Invest</button>
+					<button class="menu-open">
+						<img src="img/burger.png" alt="Open menu">
+					</button>
 				</div>
-				<div class="video-container">
-					<video id="my-video" class="video-js" controls preload="auto" max-width="467" height="264"
-						poster="img/Screenshot_1.png" data-setup="{}">
-						<source src="img/Final.mp4" type="video/mp4" />
-						<source src="MY_VIDEO.webm" type="video/webm" />
-						<p class="vjs-no-js">
-							To view this video please enable JavaScript, and consider upgrading to a
-							web browser that
-							<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+				<div class="offer">
+					<div>
+						<h1>
+							<span style="color: #00A3FF;">Invest</span> in <span style="color:#00DEDE">your future
+							</span><br>with OUR TEAM
+						</h1>
+						<p>Millions of users translate every day with DeepL. Translator from English, German, French and
+							other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator
 						</p>
-					</video>
+						<button style="margin-top: 40px;" class="btn-invest">Invest</button>
+					</div>
+					<div class="video-container">
+						<video id="my-video" class="video-js" controls preload="auto" max-width="467" height="264"
+							poster="img/Screenshot_1.png" data-setup="{}">
+							<source src="img/Final.mp4" type="video/mp4" />
+							<source src="MY_VIDEO.webm" type="video/webm" />
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a
+								web browser that
+								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+							</p>
+						</video>
+					</div>
 				</div>
 			</div>
+			
 		</div>
 	</header>
 	<section class="all-see-on">
 		<div class="container">
-			<h1 style="font-size: 37px;">As seen on:</h1>
+			<div class="all-see-on-cont">
+				<h1 style="font-size: 37px;">As seen on:</h1>
 			<div class="all-see-on-container">
 				<img src="img/1.svg" alt="1">
 				<img src="img/2.svg" alt="2">
 				<img src="img/3.svg" alt="3">
 				<img src="img/4.svg" alt="4">
 				<img src="img/5.svg" alt="5">
+			</div>
 			</div>
 		</div>
 	</section>
@@ -120,7 +125,7 @@
 						<div class="card-icon-cont">
 							<div class="card-icon">
 								<img src="img/btc.svg" alt="">
-								<div class="icon-desc">
+								<div class="icon-desc-card">
 									<div>Bitcoin</div>
 									<div>BTC</div>
 								</div>
@@ -142,7 +147,7 @@
 						<div style="margin-right: 10px;" class="card-icon-cont">
 							<div class="card-icon">
 								<img src="img/eth.svg" alt="">
-								<div class="icon-desc">
+								<div class="icon-desc-card">
 									<div>Ethereum</div>
 									<div>ETH</div>
 								</div>
@@ -166,7 +171,7 @@
 						<div class="card-icon-cont">
 							<div style="margin-right: 10px;" class="card-icon">
 								<img src="img/apple.svg" alt="">
-								<div class="icon-desc">
+								<div class="icon-desc-card">
 									<div>Apple</div>
 									<div>AAPL</div>
 								</div>
@@ -194,7 +199,7 @@
 									</div>
 								</div>
 
-								<div style="margin-top: 15px; margin-left:25px" class="icon-desc">
+								<div style="margin-top: 15px; margin-left:25px" class="icon-desc-card">
 									<div>Tesla</div>
 									<div>TSLA</div>
 								</div>
@@ -226,18 +231,18 @@
 	<section class="choose-icons">
 		<div class="container">
 			<div class="duga-cont">
-				<img src="img/duga.svg" alt="">
+				<img id="duga-img" src="img/duga.svg" alt="">
 				<div class="duga-icon">
 					<div class="icon-desc">reliability</div>
 					<div class="icon">
 						<img src="img/ch-1.svg" alt="">
-						<div class="icon2">
+						<div id="icon1" class="icon2">
 							<img src="img/ch-11.svg" alt="">
 						</div>
 					</div>
 				</div>
 				<div id="duga-icon2" class="duga-icon">
-					<div id="icon-desc2" style="white-space: nowrap;" class="icon-desc">instant payouts</div>
+					<div id="icon-desc2"  class="icon-desc">instant payouts</div>
 					<div class="icon">
 						<img src="img/ch-2.svg" alt="">
 						<div id="icon2" class="icon2">
@@ -246,7 +251,7 @@
 					</div>
 				</div>
 				<div id="duga-icon3" class="duga-icon">
-					<div id="icon-desc3" style="white-space: nowrap;" class="icon-desc">professional approach</div>
+					<div id="icon-desc3"  class="icon-desc">professional approach</div>
 					<div class="icon">
 						<img src="img/ch-3.svg" alt="">
 						<div id="icon3" class="icon2">
@@ -255,7 +260,7 @@
 					</div>
 				</div>
 				<div id="duga-icon4" class="duga-icon">
-					<div id="icon-desc4" style="white-space: nowrap;" class="icon-desc">Stability</div>
+					<div id="icon-desc4"  class="icon-desc">Stability</div>
 					<div class="icon">
 						<img src="img/ch-4.svg" alt="">
 						<div id="icon4" class="icon2">
@@ -264,7 +269,7 @@
 					</div>
 				</div>
 				<div id="duga-icon5" class="duga-icon">
-					<div id="icon-desc5" style="white-space: nowrap;" class="icon-desc">experience</div>
+					<div id="icon-desc5"  class="icon-desc">experience</div>
 					<div class="icon">
 						<img src="img/ch-5.svg" alt="">
 						<div id="icon5" class="icon2">
@@ -407,9 +412,15 @@
 	<section class="results-desc">
 		<div class="container">
 			<div class="results-desc-cont">
-				<div class="results-desc-item">1</div>
-				<div class="results-desc-item">1</div>
-				<div class="results-desc-item">1</div>
+				<div class="results-desc-item">
+					<img src="img/Rectangle3.png" alt="">
+				</div>
+				<div class="results-desc-item">
+					<img src="img/pexels-spencer-selover-775358 1.png" alt="">
+				</div>
+				<div class="results-desc-item">
+						<img src="img/pexels-andrea-piacquadio-853151 1.png" alt="">
+				</div>
 			</div>
 		</div>
 	</section>
@@ -418,41 +429,64 @@
 	</section>
 	<section class="faq-desc">
 		<div class="container">
-			<div class="faq-desc-item">
-				<div class="faq-desc-item-num">
-					<div>1</div>
-					<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+			<div class="faq-desc-cont">
+				<div class="faq-desc-item">
+					<div class="faq-desc-item-num">
+						<div>1</div>
+						<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+					</div>
+					<button class="faq-button1">+</button>
+					<button style="display: none; font-size: 24px;" class="faq-button1">X</button>
 				</div>
-				<button>+</button>
-			</div>
-			<div class="faq-desc-item">
-				<div class="faq-desc-item-num">
-					<div>2</div>
-					<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+				<div class="faq-desc-item-hidden1">
+					Millions of users translate every day with DeepL. Translator from English, German, French and other languages. Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. 
 				</div>
-				<button>+</button>
-			</div>
-			<div class="faq-desc-item">
-				<div class="faq-desc-item-num">
-					<div>3</div>
-					<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+				<div class="faq-desc-item">
+					<div class="faq-desc-item-num">
+						<div>2</div>
+						<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+					</div>
+					<button class="faq-button2">+</button>
+					<button style="display: none; font-size: 24px;" class="faq-button2">X</button>
 				</div>
-				<button>+</button>
-			</div>
-			<div class="faq-desc-item">
-				<div class="faq-desc-item-num">
-					<div>4</div>
-					<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+				<div class="faq-desc-item-hidden2">
+					Millions of users translate every day with DeepL. Translator from English, German, French and other languages. Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. 
 				</div>
-				<button>+</button>
-			</div>
-			<div class="faq-desc-item">
-				<div class="faq-desc-item-num">
-					<div>5</div>
-					<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+				<div class="faq-desc-item">
+					<div class="faq-desc-item-num">
+						<div>3</div>
+						<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+					</div>
+					<button class="faq-button3">+</button>
+					<button style="display: none; font-size: 24px;" class="faq-button3">X</button>
 				</div>
-				<button>+</button>
+				<div class="faq-desc-item-hidden3">
+					Millions of users translate every day with DeepL. Translator from English, German, French and other languages. Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. 
+				</div>
+				<div class="faq-desc-item">
+					<div class="faq-desc-item-num">
+						<div>4</div>
+						<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+					</div>
+					<button class="faq-button4">+</button>
+					<button style="display: none; font-size: 24px;" class="faq-button4">X</button>
+				</div>
+				<div class="faq-desc-item-hidden4">
+					Millions of users translate every day with DeepL. Translator from English, German, French and other languages. Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. 
+				</div>
+				<div class="faq-desc-item">
+					<div class="faq-desc-item-num">
+						<div>5</div>
+						<span>Millions of users translate every day with DeepL. Translator from English, German?</span>
+					</div>
+					<button class="faq-button5">+</button>
+					<button style="display: none; font-size: 24px;" class="faq-button5">X</button>
+				</div>
+				<div class="faq-desc-item-hidden5">
+					Millions of users translate every day with DeepL. Translator from English, German, French and other languages. Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. Translator from English, German, French and other languages ​​​​to Russian Millions of users translate every day with DeepL. 
+				</div>
 			</div>
+		
 		</div>
 	</section>
 	<section id="form-footer" class="form1">
